@@ -17,7 +17,7 @@ const Cell = props => {
       break;
     case 'D':
       cellClass = 'duck';
-      icon="🦆";
+      icon="🐥";
       break;
     case 'G':
       cellClass = 'goose';
@@ -25,7 +25,7 @@ const Cell = props => {
       break;
     case 'B':
       cellClass = 'baby';
-      icon="🦆";
+      icon="🐣";
       break;
     default:
       cellClass = 'water';

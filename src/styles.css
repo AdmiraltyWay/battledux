@@ -1,9 +1,3 @@
-/* button{
-  border: 1px grey;
-  color: white;
-  padding: 0px 0px;
-} */
-
 .hidden {
   visibility: hidden;
 }
@@ -13,11 +7,7 @@
 }
 
 #message-box{
-  position: absolute;
   /* float:left; */
-  /* left: 100px;
-  top: 100px;
-  margin:0 auto; */
   position: fixed;
   top: 50%;
   left: 50%;
@@ -108,6 +98,7 @@
 
 .duck {
   background-color: yellow;
+  font-size:1.7em;
 }
 .goose {
   background-color: goldenrod;
@@ -167,4 +158,9 @@
 .skull-and-crossbones {
   text-align: center;
   font-size: 1.5em;
+}
+
+.board-label {
+  width:100%;
+  text-align: center;
 }

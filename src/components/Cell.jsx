@@ -3,7 +3,7 @@ import React, { Component } from "react";
 
 const Cell = props => {
   let cellClass;
-
+  let icon="";
   // set the class so that our CSS can color the square correctly
   switch (props.cellCode){
     case 'W':
@@ -17,12 +17,15 @@ const Cell = props => {
       break;
     case 'D':
       cellClass = 'duck';
+      icon="🦆";
       break;
     case 'G':
       cellClass = 'goose';
+      icon="🦆";
       break;
     case 'B':
-      cellClass = 'baby';// TODO
+      cellClass = 'baby';
+      icon="🦆";
       break;
     default:
       cellClass = 'water';
@@ -32,7 +35,7 @@ const Cell = props => {
   // it is a 'cell' class and one of the above...for cell coloring
   let classnameText = "cell " + cellClass;
   return (
-    <button id={props.coord} className={classnameText} onClick={props.handleCellClick}></button>
+    <button id={props.coord} className={classnameText} onClick={props.handleCellClick}>{icon}</button>
   )
 }
 

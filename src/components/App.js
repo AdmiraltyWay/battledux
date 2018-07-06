@@ -44,6 +44,7 @@ class App extends Component {
     // console.log("check this === ", this.props);
     return (
       <div>
+        <div><center><h1>⚓️🦆🐥🐣⚓️BATTLEDUX⚓️🐣🐥🦆⚓️</h1></center></div> 
         <div className="container">
           <div id="grids-container">
             <div id="login-area">

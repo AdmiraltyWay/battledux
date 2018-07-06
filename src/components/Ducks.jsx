@@ -39,9 +39,9 @@ const Ducks = props => {
     <table className="fleet-table">
       <thead>
         <tr className="fleet">
-          <th>Goose</th>
-          <th>Duck</th>
-          <th>Duckling</th>
+          <th>Goose🦆</th>
+          <th>Duck<br/>🐥</th>
+          <th>Duckling🐣</th>
         </tr>
       </thead>
       <tbody>

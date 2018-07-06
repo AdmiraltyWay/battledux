@@ -35,7 +35,15 @@ const Ducks = props => {
     duckling_skull_class = "show";
   }
 
+  let boardLabel = "Your board";
+  if (props.cpu === true){
+    boardLabel = "Click on cells to try to Hit and Sink their fowl!"
+  }
+
+
+
   return (
+    <div>
     <table className="fleet-table">
       <thead>
         <tr className="fleet">
@@ -61,6 +69,8 @@ const Ducks = props => {
           </td>️</tr>
       </tbody>
     </table>
+    <div className="board-label">{boardLabel}</div>
+    </div>
   );
 };
 

@@ -12,7 +12,7 @@ const MessageBox = props => {
   }
   if ((props.compDuckHealth.goose + props.compDuckHealth.duck + props.compDuckHealth.duckling) === 0) {
     // All of the computer's ships have been destroyed...PLAYER WINS
-    message = `${props.userName} wins !!!`;
+    message = `Admiral ${props.userName} Wins !!!`;
     emoji = '🏆';
     showOrHide="show";
   }
